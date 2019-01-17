@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Git+</string>
+    <string name="hint_owner_name">Owner</string>
+    <string name="hint_repo_name">Repository</string>
+    <string name="action_submit">Submit</string>
+    <string name="action_cancel">Cancel</string>
+
+    <string name="label_pull_request_state_open">Open</string>
+    <string name="label_pull_request_state_closed">Closed</string>
+    <string name="label_pull_request_state_all">All</string>
+
+    <string name="label_sort_created">Created</string>
+    <string name="label_sort_updated">Updated</string>
+    <string name="label_sort_popularity">Popularity</string>
+
+    <string name="label_direction_desc">Desc</string>
+    <string name="label_direction_asc">Asc</string>
+    <string name="label_pull_request_state">State</string>
+    <string name="label_pull_request_sort">Sort</string>
+    <string name="label_pull_request_direction">Direction</string>
+    <string name="label_empty_state">No pull requests found.\nPlease try chaging the search parameters.</string>
+    <string name="clean_up_dependency_injection">Clean up Dependency Injection</string>
+    <string name="remove_most_of_our_legacy_manual_di_introduce_new_manualinjection_object_which_enables_use_of_producer_functions_by_providing_some_dependencies_which_are_required_throughout_the_data_services">Remove most of our legacy manual DI. Introduce new ManualInjection object which enables use of producer functions by providing some dependencies which are required throughout the data services.</string>
+    <string name="label_offline_result">Offline result</string>
+    <string name="label_offline_cache_inform">Search request and response are cached offline</string>
+
+</resources>

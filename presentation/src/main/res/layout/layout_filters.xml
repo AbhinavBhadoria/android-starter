@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/AppTheme.FiltersDialog.Text.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_pull_request_state" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupPullRequestState"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioButtonStateAll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_pull_request_state_all" />
+
+        <RadioButton
+            android:id="@+id/radioButtonStateOpen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_pull_request_state_open" />
+
+        <RadioButton
+            android:id="@+id/radioButtonStateClosed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_pull_request_state_closed" />
+    </RadioGroup>
+
+    <TextView
+        style="@style/AppTheme.FiltersDialog.Text.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_pull_request_sort" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupSort"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioButtonSortCreated"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_sort_created" />
+
+        <RadioButton
+            android:id="@+id/radioButtonSortUpdated"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_sort_updated" />
+
+        <RadioButton
+            android:id="@+id/radioButtonSortPopularity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_sort_popularity" />
+
+    </RadioGroup>
+
+    <TextView
+        style="@style/AppTheme.FiltersDialog.Text.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_pull_request_direction" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupDirection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioButtonDirectionAsc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_direction_asc" />
+
+        <RadioButton
+            android:id="@+id/radioButtonDirectionDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_direction_desc" />
+
+    </RadioGroup>
+
+
+    <TextView
+        android:id="@+id/textOfflineResultIndicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_action_offline_bolt"
+        android:gravity="center"
+        android:drawablePadding="4dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/label_offline_cache_inform" />
+</LinearLayout>
